@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'normalize.css';
+
+@import 'bytemd/dist/index.css';
+@import './themes/juejin.scss';
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: inside;
+}

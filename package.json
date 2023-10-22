@@ -1,0 +1,46 @@
+{
+  "name": "logseq-plugin-share-block",
+  "version": "0.0.1",
+  "main": "dist/index.html",
+  "logseq": {
+    "id": "logseq-plugin-share-block",
+    "icon": "logo.png"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build --watch",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@bytemd/plugin-gfm": "^1.21.0",
+    "@bytemd/react": "^1.21.0",
+    "@logseq/libs": "^0.0.15",
+    "antd": "^5.10.1",
+    "bytemd": "^1.21.0",
+    "dom-to-image": "^2.6.0",
+    "i18next": "^23.6.0",
+    "normalize.css": "^8.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^13.3.1"
+  },
+  "devDependencies": {
+    "@types/dom-to-image": "^2.6.6",
+    "@types/node": "^20.8.7",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react-swc": "^3.3.2",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "postcss": "^8.4.31",
+    "postcss-antd-fixes": "^0.2.0",
+    "sass": "^1.69.4",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}

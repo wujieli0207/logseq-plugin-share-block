@@ -22,14 +22,6 @@ export async function generateShareImage(ref: HTMLDivElement | null) {
 
           window.URL.revokeObjectURL(url)
         })
-
-      // const logseqEditor = logseq.Editor
-      // const currentPage = await logseqEditor.getCurrentPage()
-
-      // await logseqEditor.appendBlockInPage(
-      //   currentPage!.originalName,
-      //   `<img src="${dataUrl}" />`
-      // )
     } catch (error) {
       console.error(t('Generate share image meet something wrong'), error)
     }
@@ -58,11 +50,9 @@ ${
 }`
   }
 
-  return `
----
-theme: juejin 
-highlight: github
----
+  return `${getContent(block)}`
+}
 
-${getContent(block)}`
+export function loadMarkdownTheme(themeName: string) {
+  return import(`../../styles/themes/${themeName}.scss`)
 }

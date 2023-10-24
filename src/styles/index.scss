@@ -4,8 +4,21 @@
 
 @import 'normalize.css';
 
-@import 'bytemd/dist/index.css';
-@import './themes/juejin.scss';
+// themes
+@import './themes/arknights.scss';
+@import './themes/channing-cyan.scss';
+@import './themes/Chinese-red.scss';
+@import './themes/condensed-night-purple.scss';
+@import './themes/cyanosis.scss';
+@import './themes/devui-blue.scss';
+@import './themes/fancy.scss';
+@import './themes/github.scss';
+@import './themes/nico.scss';
+@import './themes/scrolls-light.scss';
+@import './themes/smartblue.scss';
+@import './themes/v-green.scss';
+@import './themes/vuepress.scss';
+@import './themes/z-blue.scss';
 
 ul,
 li {
